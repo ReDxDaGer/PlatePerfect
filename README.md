@@ -1,13 +1,13 @@
 # PlatePerfect
 
-PlatePerfect is a Flask web application designed to help users find the perfect car number for their vehicles. With PlatePerfect, users can effortlessly search and browse through available car numbers, simplifying the process of finding the ideal plate.
+PlatePerfect is a Flask web application designed to help users find the perfect car number for their vehicles. With PlatePerfect, users can effortlessly search and browse through available Indian car numbers, simplifying the process of finding the ideal plate.
 
 ## Features
 
 - **User-friendly Interface:** Intuitive design for easy navigation.
-- **Search Functionality:** Quickly find car numbers based on specific criteria.
-- **Browse Options:** Explore a wide range of available car numbers.
-- **Matchmaking:** Get matched with the perfect car number based on preferences.
+- **Search Functionality:** Quickly find Indian car numbers based on specific criteria.
+- **Browse Options:** Explore a wide range of available Indian car numbers.
+- **Matchmaking:** Get matched with the perfect Indian car number based on preferences.
 - **Efficient Backend:** Powered by Flask, ensuring fast and reliable performance.
 
 ## Usage
