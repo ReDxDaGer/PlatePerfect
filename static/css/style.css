@@ -1,0 +1,104 @@
+/* Common styles for both light and dark modes */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'JetBrains Mono', monospace; 
+    background-color: #f7f7f7; /* Light gray background */
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    background-color: #ffffff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+h1 {
+    font-size: 36px;
+    color: #333333; /* Dark gray heading color */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #666666; /* Medium gray paragraph color */
+    margin-bottom: 30px;
+}
+
+label {
+    font-size: 18px;
+    color: #333333; /* Dark gray label color */
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+input[type="text"] {
+    width: calc(50% - 10px);
+    height: 40px;
+    padding: 0 10px;
+    border: 1px solid #cccccc; /* Light gray border */
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #ffa500; /* Orange border color on focus */
+    outline: none;
+}
+
+button[type="submit"] {
+    background-color: #ffa500; /* Orange button background color */
+    color: #ffffff; /* White button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff8500; /* Lighter orange on hover */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group:last-child {
+    margin-bottom: 0;
+}
+
+.form-group input[type="text"] {
+    width: calc(50% - 10px);
+    margin-right: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+/* Dark mode */
+.dark-mode {
+    background-color: #333333; /* Dark background color */
+    color: #ffffff; /* White text color */
+}
+
+.dark-mode input[type="text"],
+.dark-mode button[type="submit"] {
+    border-color: #333333; /* White border color */
+}
